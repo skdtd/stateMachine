@@ -1,0 +1,6 @@
+package com.skdtd.stateMachine.enums;
+
+public enum OrderEvent {
+    DISPATCH_ORDER, START_PROCESSING, UPLOAD_PROCESSING_RECORDS, PROCESSING_COMPLETED, CANCEL_ORDER, COMPLETE_ORDER;
+
+}
